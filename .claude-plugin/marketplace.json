@@ -38,6 +38,16 @@
       "name": "workflow",
       "source": "./plugins/workflow",
       "description": "Session workflow helpers and deferred-work backlog - knowledge capture, confusion handling, course correction, clipboard copy, backlog items"
+    },
+    {
+      "name": "hol-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "hashgraph-online/hol-guard",
+        "path": "integrations/claude-code-plugin",
+        "sha": "57c99baac955152383f3c6a9606b0f046957b172"
+      },
+      "description": "Install and manage the local-first HOL Guard package for Claude Code. This plugin guides setup and status checks; HOL Guard itself installs and owns runtime security hooks for risky commands, secrets, packages, MCP, and supply-chain activity."
     }
   ]
 }
